@@ -4,12 +4,7 @@
 #include <util/delay.h>
 #define OFF 0
 #define ON 1
-// Luca Temes D'Andrea e Bernardo Zamin.
-// Funcionalidade de desligar o sistema durante a execução faltando.
-int statusPort5 = OFF;
-int statusPort4 = OFF;
-int statusPort3 = OFF;
-int statusPort2 = OFF;
+
 int nivelUmidade = 0;
 int temp = 0;
 int contadorms = 0;
